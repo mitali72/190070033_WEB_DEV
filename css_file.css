@@ -1,0 +1,62 @@
+.name{
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: cursive;  
+    font-size: 28px;
+    color: white;
+    animation: animated-text 2s steps(30,end) 1s 1 normal both;
+}
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+ }
+.quote{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Allura';
+}
+.heading-2{
+    color: turquoise;
+}
+.navbar ul{
+    margin:0px;
+    padding: 0px;
+    top: 0;
+    width: 100%;
+    background: yellow;
+    list-style-type: none;
+    position: fixed;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+}
+
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    background: yellow;
+    padding: 15px;
+    color: black;
+} 
+.navbar li a:hover{
+    background: red;
+    color:yellow;
+}
+.navbar a:active{
+    color: white;
+}
+.amb, .ed, .hob{
+    text-shadow: 2px 2px 4px white;
+    shadowr
+}
+.cont{
+   border: 2px solid red;
+   width: 150px;
+   border-radius: 10px;
+   padding: 5px;
+   
+   color: wheat;
+    
+}
